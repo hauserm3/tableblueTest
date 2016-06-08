@@ -120,8 +120,8 @@
                 </div>
             </div>
             
-            <script src="crawl/AdminBackbone.js"></script>
-            <script src="crawl/Admin.js"></script>
+            <script src="../dev/crawl/AdminBackbone.js"></script>
+            <script src="../dev/crawl/Admin.js"></script>
 
         </div>
     </div>

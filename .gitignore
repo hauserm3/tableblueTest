@@ -1,1 +1,3 @@
 /.idea
+node_modules/ssh2/util/pagent.exe
+/node_modules

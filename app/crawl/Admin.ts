@@ -1,7 +1,7 @@
 /**
  * Created by Vlad on 4/29/2016.
  */
-    ///<reference path="../js/base.ts"/>
+    ///<reference path="../dev/js/base.ts"/>
     ///<reference path="AdminBackbone.ts"/>
     
 

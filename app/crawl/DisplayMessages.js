@@ -1,4 +1,4 @@
-///<reference path="../dev/js/base.ts"/>
+///<reference path="../js/base.ts"/>
 var movingtext;
 (function (movingtext) {
     var Messages = (function () {
@@ -83,7 +83,7 @@ var movingtext;
             this.$el.append(mov);
         };
         return Messages;
-    })();
+    }());
     movingtext.Messages = Messages;
 })(movingtext || (movingtext = {}));
 var MTROptions = {

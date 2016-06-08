@@ -1,7 +1,7 @@
 /**
  * Created by Vlad on 4/29/2016.
  */
-///<reference path="../dev/js/base.ts"/>
+///<reference path="../js/base.ts"/>
 ///<reference path="AdminBackbone.ts"/>
 var myapp;
 (function (myapp) {
@@ -99,7 +99,7 @@ var myapp;
             this.collection.setEditable();
         };
         return Main;
-    })();
+    }());
     myapp.Main = Main;
 })(myapp || (myapp = {}));
 $(document).ready(function () {

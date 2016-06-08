@@ -1,7 +1,7 @@
 /**
  * Created by yrik6 on 18.04.2016.
  */
-///<reference path="../dev/js/base.ts"/>
+///<reference path="../js/base.ts"/>
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
@@ -24,7 +24,7 @@ var Table;
             };
         };
         return Message;
-    })(Backbone.Model);
+    }(Backbone.Model));
     Table.Message = Message;
     var MessageView = (function (_super) {
         __extends(MessageView, _super);
@@ -95,7 +95,7 @@ var Table;
         };
         MessageView.template = _.template($('#row-template').html());
         return MessageView;
-    })(Backbone.View);
+    }(Backbone.View));
     Table.MessageView = MessageView;
     var AllMessageCollection = (function (_super) {
         __extends(AllMessageCollection, _super);
@@ -126,7 +126,7 @@ var Table;
             this.selectedModel = model;
         };
         return AllMessageCollection;
-    })(Backbone.Collection);
+    }(Backbone.Collection));
     Table.AllMessageCollection = AllMessageCollection;
     var AllMessageView = (function (_super) {
         __extends(AllMessageView, _super);
@@ -142,7 +142,7 @@ var Table;
             return this;
         };
         return AllMessageView;
-    })(Backbone.View);
+    }(Backbone.View));
     Table.AllMessageView = AllMessageView;
 })(Table || (Table = {}));
 //# sourceMappingURL=AdminBackbone.js.map
